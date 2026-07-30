@@ -1,0 +1,91 @@
+[gd_scene format=3 uid="uid://biup1rqmtys3i"]
+
+[ext_resource type="Script" uid="uid://etat7sn30lxr" path="res://scripts/main.gd" id="1_o5qli"]
+[ext_resource type="Script" uid="uid://b1hklqrpmka0c" path="res://scripts/draggable_polygon.gd" id="2_0wfyh"]
+
+[sub_resource type="FontFile" id="FontFile_sugp2"]
+cache/0/variation_coordinates = {}
+cache/0/face_index = 0
+cache/0/embolden = 0.0
+cache/0/transform = Transform2D(1, 0, 0, 1, 0, 0)
+cache/0/spacing_top = 0
+cache/0/spacing_bottom = 0
+cache/0/spacing_space = 0
+cache/0/spacing_glyph = 0
+cache/0/baseline_offset = 0.0
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+cache/0/17/0/ascent = 0.0
+cache/0/17/0/descent = 0.0
+cache/0/17/0/underline_position = 0.0
+cache/0/17/0/underline_thickness = 0.0
+cache/0/17/0/scale = 1.0
+cache/0/18/0/ascent = 0.0
+cache/0/18/0/descent = 0.0
+cache/0/18/0/underline_position = 0.0
+cache/0/18/0/underline_thickness = 0.0
+cache/0/18/0/scale = 1.0
+cache/0/19/0/ascent = 0.0
+cache/0/19/0/descent = 0.0
+cache/0/19/0/underline_position = 0.0
+cache/0/19/0/underline_thickness = 0.0
+cache/0/19/0/scale = 1.0
+cache/0/20/0/ascent = 0.0
+cache/0/20/0/descent = 0.0
+cache/0/20/0/underline_position = 0.0
+cache/0/20/0/underline_thickness = 0.0
+cache/0/20/0/scale = 1.0
+cache/0/21/0/ascent = 0.0
+cache/0/21/0/descent = 0.0
+cache/0/21/0/underline_position = 0.0
+cache/0/21/0/underline_thickness = 0.0
+cache/0/21/0/scale = 1.0
+cache/0/22/0/ascent = 0.0
+cache/0/22/0/descent = 0.0
+cache/0/22/0/underline_position = 0.0
+cache/0/22/0/underline_thickness = 0.0
+cache/0/22/0/scale = 1.0
+cache/0/23/0/ascent = 0.0
+cache/0/23/0/descent = 0.0
+cache/0/23/0/underline_position = 0.0
+cache/0/23/0/underline_thickness = 0.0
+cache/0/23/0/scale = 1.0
+cache/0/24/0/ascent = 0.0
+cache/0/24/0/descent = 0.0
+cache/0/24/0/underline_position = 0.0
+cache/0/24/0/underline_thickness = 0.0
+cache/0/24/0/scale = 1.0
+cache/0/25/0/ascent = 0.0
+cache/0/25/0/descent = 0.0
+cache/0/25/0/underline_position = 0.0
+cache/0/25/0/underline_thickness = 0.0
+cache/0/25/0/scale = 1.0
+
+[sub_resource type="LabelSettings" id="LabelSettings_0wfyh"]
+font = SubResource("FontFile_sugp2")
+font_size = 25
+font_color = Color(1, 1, 0, 1)
+
+[node name="Main" type="Node2D" unique_id=2058237814]
+script = ExtResource("1_o5qli")
+
+[node name="DraggablePolygon" type="Polygon2D" parent="." unique_id=995751344]
+scale = Vector2(0.664, 0.8)
+color = Color(0.69411767, 0.4, 1, 0.49411765)
+polygon = PackedVector2Array(203, 372, 137, 175, 330, 62, 512, 174, 442, 370)
+script = ExtResource("2_0wfyh")
+
+[node name="Label" type="Label" parent="DraggablePolygon" unique_id=1466122814]
+offset_left = 180.7229
+offset_top = 176.25
+offset_right = 483.7229
+offset_bottom = 284.25
+text = "DRAG ME
+You can't click 
+through me"
+label_settings = SubResource("LabelSettings_0wfyh")
+horizontal_alignment = 1
+uppercase = true

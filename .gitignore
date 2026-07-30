@@ -1,0 +1,152 @@
+# =========================================================
+# Godot generated files
+# =========================================================
+
+.godot/
+.import/
+
+# Godot export settings may contain local machine paths.
+# Remove these two lines later if you intentionally want
+# to share export presets with contributors.
+export.cfg
+export_presets.cfg
+
+
+# =========================================================
+# SCons / GDExtension build files
+# =========================================================
+
+.sconsign.dblite
+.sconsign.dblite.*
+
+build/
+out/
+dist/
+exports/
+
+# Intermediate C/C++ files
+*.o
+*.obj
+*.lo
+*.idb
+*.ilk
+*.exp
+*.pdb
+*.tlog
+*.lastbuildstate
+
+# Static libraries generated during build
+*.a
+*.lib
+
+
+# =========================================================
+# CMake files, in case CMake is used later
+# =========================================================
+
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+
+
+# =========================================================
+# Visual Studio
+# =========================================================
+
+.vs/
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+
+# =========================================================
+# Visual Studio Code / JetBrains
+# =========================================================
+
+.vscode/
+.idea/
+
+
+# =========================================================
+# Temporary and log files
+# =========================================================
+
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+
+# =========================================================
+# Operating system files
+# =========================================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# =========================================================
+# Python cache, sometimes created by build scripts
+# =========================================================
+
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Godot generated files
+.godot/
+.import/
+*.import
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# C/C++ intermediate files
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exp
+*.lib
+
+# SCons generated files
+.sconsign.dblite
+.sconsign.dblite.*
+
+# Compiler tooling output
+compile_commands.json
+
+/compile_commands.json
+/bin/
+demo/addons/native_click_through/
+
+
+# =========================================================
+# IMPORTANT
+# =========================================================
+
+# Do NOT ignore all *.dll files.
+# The compiled plugin DLL inside the addon folder should be
+# committed so users can clone the repository and run it.
+#
+# Example files that should remain tracked:
+#
+# addons/native_click_through/bin/windows/*.dll
+#
+# If your template currently outputs DLLs into another folder,
+# keep that release/debug output tracked until the repository
+# structure is reorganized.

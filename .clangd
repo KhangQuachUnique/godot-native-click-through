@@ -1,0 +1,10 @@
+CompileFlags:
+  Add:
+    - -xc++
+    - -std=c++17
+    - -D_WIN32
+    - -D_WINDOWS
+    - -IC:/Work/App/native-click-through/godot-cpp/include
+    - -IC:/Work/App/native-click-through/godot-cpp/gen/include
+    - -IC:/Work/App/native-click-through/godot-cpp/gdextension
+    - -IC:/Work/App/native-click-through/src
